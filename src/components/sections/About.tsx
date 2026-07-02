@@ -1,3 +1,4 @@
+import Image from "next/image";
 import SectionLabel from "@/components/atoms/SectionLabel";
 import ScrollReveal from "@/components/ScrollReveal";
 
@@ -18,19 +19,14 @@ export default function About() {
                 headshot.jpg
               </span>
             </div>
-            <div
-              className="flex-1 min-h-[300px] flex flex-col items-center justify-center gap-3.5"
-              style={{
-                backgroundImage:
-                  "repeating-linear-gradient(45deg, #eef1ea, #eef1ea 11px, #fff 11px, #fff 22px)",
-              }}
-            >
-              <div className="w-[72px] h-[72px] rounded-full border-[1.5px] border-muted flex items-center justify-center bg-card">
-                <span className="font-heading text-[22px] text-muted">PD</span>
-              </div>
-              <span className="font-heading text-[11px] tracking-[0.1em] uppercase text-muted bg-card border border-border px-2.5 py-1">
-                drop photo here
-              </span>
+            <div className="flex-1 min-h-[300px] relative overflow-hidden">
+              <Image
+                src="/profile.png"
+                alt="Peter Djeneralovic"
+                fill
+                className="object-contain object-center"
+                priority
+              />
             </div>
           </div>
 
