@@ -32,7 +32,7 @@ export const projects = [
     description:
       "A seasonal produce showcase with an interactive in-season calendar, live Instagram feed, and one-tap directions to the barn.",
     tags: ["Next.js", "React", "Image Opt"],
-    image: "",
+    image: "/fruitlandfarms.jpg",
     url: "https://www.fruitlandfarms.ca/",
     isLive: true,
   },
