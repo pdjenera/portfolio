@@ -123,7 +123,7 @@ export default function Contact() {
             <button
               type="submit"
               disabled={status === "sending"}
-              className="font-heading text-[13.5px] font-medium py-3.5 bg-fg text-bg border-none cursor-pointer transition-transform hover:-translate-y-0.5 disabled:opacity-60"
+              className="font-heading text-[13.5px] font-medium py-3.5 bg-transparent text-fg border border-fg cursor-pointer transition-all hover:-translate-y-0.5 disabled:opacity-60"
             >
               {buttonLabel}
             </button>

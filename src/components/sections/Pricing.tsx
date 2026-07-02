@@ -58,7 +58,7 @@ function PricingCard({
 
       <a
         href="#contact"
-        className="font-heading text-[13px] text-center py-3 mt-1.5 bg-fg text-bg transition-opacity hover:opacity-85"
+        className="font-heading text-[13px] text-center py-3 mt-1.5 bg-transparent text-fg border border-fg transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_22px_rgba(0,0,0,0.16)]"
       >
         {cta}
       </a>

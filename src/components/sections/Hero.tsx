@@ -71,7 +71,7 @@ export default function Hero() {
         <div className="flex gap-3.5 flex-wrap">
           <a
             href="#contact"
-            className="font-heading text-[13.5px] font-medium tracking-[0.01em] px-[22px] py-3.5 bg-fg text-bg transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_22px_rgba(0,0,0,0.16)]"
+            className="font-heading text-[13.5px] font-medium tracking-[0.01em] px-[22px] py-3.5 bg-transparent text-fg border border-fg transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_22px_rgba(0,0,0,0.16)]"
           >
             Start a project &rarr;
           </a>
