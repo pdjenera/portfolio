@@ -19,7 +19,7 @@ function ProjectCard({
       rel={isLive ? "noopener noreferrer" : undefined}
       className="flex flex-col bg-card border border-border transition-all hover:-translate-y-1 hover:shadow-[0_14px_34px_rgba(0,0,0,0.10)]"
     >
-      {isLive ? (
+      {isLive && image ? (
         <div className="aspect-[16/11] overflow-hidden border-b border-border relative">
           <Image
             src={image}
@@ -38,7 +38,7 @@ function ProjectCard({
           }}
         >
           <span className="font-heading text-xs tracking-[0.1em] text-muted uppercase">
-            + new project
+            {isLive ? "screenshot coming soon" : "+ new project"}
           </span>
         </div>
       )}

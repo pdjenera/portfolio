@@ -32,8 +32,7 @@ export const projects = [
     description:
       "A seasonal produce showcase with an interactive in-season calendar, live Instagram feed, and one-tap directions to the barn.",
     tags: ["Next.js", "React", "Image Opt"],
-    image:
-      "https://www.fruitlandfarms.ca/_next/image?url=%2Fimages%2Fhero-storefront.png&w=1920&q=75",
+    image: "",
     url: "https://www.fruitlandfarms.ca/",
     isLive: true,
   },
@@ -43,8 +42,7 @@ export const projects = [
     description:
       "A polished agent site with featured listings, community guides, client reviews, and a clean contact pipeline.",
     tags: ["Next.js", "React", "Listings"],
-    image:
-      "https://www.fruitlandrealty.ca/_next/image?url=%2Fhero-neighbourhood.jpg&w=1920&q=75",
+    image: "/fruitlandrealty.jpg",
     url: "https://www.fruitlandrealty.ca/",
     isLive: true,
   },
